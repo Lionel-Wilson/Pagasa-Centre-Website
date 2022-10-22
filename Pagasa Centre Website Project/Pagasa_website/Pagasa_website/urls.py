@@ -17,6 +17,6 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path('Pagasa/', include('Pagasa.urls')),
+    path('Cell_Group/', include('Cell_Group.urls')),
     path('admin/', admin.site.urls),
 ]

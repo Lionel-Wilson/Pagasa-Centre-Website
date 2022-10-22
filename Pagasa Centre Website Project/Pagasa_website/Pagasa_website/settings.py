@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Pagasa.apps.PagasaConfig'
+    'Cell_Group.apps.Cell_GroupConfig'
 ]
 
 MIDDLEWARE = [

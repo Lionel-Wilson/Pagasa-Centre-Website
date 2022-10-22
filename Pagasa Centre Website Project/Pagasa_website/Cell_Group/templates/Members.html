@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pagasa Centre Website</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Pag-Asa Centre</h1>
+            <Nav>
+                <ul>
+                    <li><a href="Home">Home</a></li>
+                    <li><a href="Information">Info</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Archive</a></li>
+                    <li><a href="">Cell Group</a></li>
+                    <li><a href="">Sunday School</a></li>
+                </ul>
+            </Nav>
+        </header>
+
+        <main>
+            <section>
+                <h2>Church Members</h2>
+                <p>THIS IS THE CHURCH MEMEBERS PAGE</p>
+            </section>
+            <section>
+                <h2>Current members</h2>
+                <table border="1">
+                    {% for x in mymembers %}
+                    <tr>
+                    <td>{{ x.id }}</td>
+                    <td>{{ x.firstname }}</td>
+                    <td>{{ x.lastname }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+
+                <p>
+                <a href="add/">Add member</a>
+                </p>
+            </section>
+            
+        </main>
+          
+        <footer>
+            <p>© 2022 Pag-Asa Centre All rights reserved</p>
+        </footer>
+    </body>
+</html>
