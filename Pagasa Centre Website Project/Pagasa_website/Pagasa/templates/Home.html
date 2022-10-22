@@ -20,8 +20,23 @@
         </header>
 
         <main>
-            <h1>Home</h1>
-            <p>THIS IS THE HOME PAGE</p>
+            <section>
+                <h2>Home</h2>
+                <p>THIS IS THE HOME PAGE</p>
+            </section>
+            <section>
+                <h2>Current members</h2>
+                <table border="1">
+                    {% for x in mymembers %}
+                    <tr>
+                    <td>{{ x.id }}</td>
+                    <td>{{ x.firstname }}</td>
+                    <td>{{ x.lastname }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </section>
+            
         </main>
           
         <footer>
