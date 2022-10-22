@@ -18,31 +18,20 @@
                 </ul>
             </Nav>
         </header>
-
-        <main>
-            <section>
-                <h2>Home</h2>
-                <p>THIS IS THE HOME PAGE</p>
-            </section>
-            <section>
-                <h2>Current members</h2>
-                <table border="1">
-                    {% for x in mymembers %}
-                    <tr>
-                    <td>{{ x.id }}</td>
-                    <td>{{ x.firstname }}</td>
-                    <td>{{ x.lastname }}</td>
-                    </tr>
-                    {% endfor %}
-                </table>
-
-                <p>
-                <a href="add/">Add member</a>
-                </p>
-            </section>
-            
-        </main>
-          
+        <div>
+            <h1>Add Member</h1>
+            <form action="addrecord/" method="post">
+                {% csrf_token %}
+                First Name:<br>
+                <input name="first">
+                <br><br>
+                Last Name:<br>
+                <input name="last">
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        
         <footer>
             <p>© 2022 Pag-Asa Centre All rights reserved</p>
         </footer>
