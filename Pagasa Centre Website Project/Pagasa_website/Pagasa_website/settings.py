@@ -37,6 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_rename_app',
+
+    #third party
+
+    #own
+    'Home.apps.HomeConfig',
     'Cell_Group.apps.Cell_GroupConfig'
 ]
 

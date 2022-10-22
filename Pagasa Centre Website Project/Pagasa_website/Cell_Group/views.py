@@ -15,10 +15,6 @@ def index(request):
     }    
     return HttpResponse(template.render(context, request))
 
-def info(request):
-    template = loader.get_template('Information.html')
-    return HttpResponse(template.render())
-
 def add(request):
     template = loader.get_template('add.html')
     return HttpResponse(template.render({}, request))
