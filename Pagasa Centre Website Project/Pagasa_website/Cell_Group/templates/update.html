@@ -21,26 +21,20 @@
 
         <main>
             <section>
-                <h2>Church Members</h2>
-                <p>THIS IS THE CHURCH MEMEBERS PAGE</p>
+                <h2>Edit Member</h2>
+                <p>Edit member details below</p>
             </section>
             <section>
-                <h2>Current members</h2>
-                <table border="1">
-                    {% for x in mymembers %}
-                    <tr>
-                    <td>{{ x.id }}</td>
-                    <td>{{ x.firstname }}</td>
-                    <td>{{ x.lastname }}</td>
-                    <td><a href="update/{{ x.id }}">Edit</a></td>
-                    <td><a href="delete/{{ x.id }}">Delete</a></td>
-                    </tr>
-                    {% endfor %}
-                </table>
-
-                <p>
-                <a href="add/">Add member</a>
-                </p>
+                <form action="updaterecord/{{mymember.id}}" method="post">
+                    {% csrf_token %}
+                    First Name:<br>
+                    <input name="first" value="{{ mymember.firstname }}">
+                    <br><br>
+                    Last Name:<br>
+                    <input name="last" value="{{ mymember.lastname }}">
+                    <br><br>
+                    <input type="submit" value="Submit">
+                </form>
             </section>
             
         </main>
