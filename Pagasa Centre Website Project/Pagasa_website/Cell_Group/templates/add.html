@@ -1,23 +1,6 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Pagasa Centre Website</title>
-    </head>
-
-    <body>
-        <header>
-            <h1>Pag-Asa Centre</h1>
-            <Nav>
-                <ul>
-                    <li><a href="/Home">Home</a></li>
-                    <li><a href="/Information">Info</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="">Archive</a></li>
-                    <li><a href="">Cell Group</a></li>
-                    <li><a href="">Sunday School</a></li>
-                </ul>
-            </Nav>
-        </header>
+{% extends 'Master_temp.html' %}
+{% block page_main %}
+    <main>
         <div>
             <h1>Add Member</h1>
             <form action="addrecord/" method="post">
@@ -31,9 +14,5 @@
                 <input type="submit" value="Submit">
             </form>
         </div>
-        
-        <footer>
-            <p>© 2022 Pag-Asa Centre All rights reserved</p>
-        </footer>
-    </body>
-</html>
+    </main>
+{% endblock %}
