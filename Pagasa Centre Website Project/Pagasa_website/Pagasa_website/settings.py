@@ -43,7 +43,10 @@ INSTALLED_APPS = [
 
     #own
     'Home.apps.HomeConfig',
-    'Cell_Group.apps.Cell_GroupConfig'
+    'Cell_Group.apps.Cell_GroupConfig',
+    'Gallery.apps.GalleryConfig',
+    'Archive.apps.ArchiveConfig',
+    'Accounts.apps.AccountsConfig',
 ]
 
 MIDDLEWARE = [

@@ -20,5 +20,14 @@ from django.urls import include, path
 urlpatterns = [
     path('', include('Home.urls')),
     path('Cell_Group/', include('Cell_Group.urls')),
+    path('Gallery/', include('Gallery.urls')),
+    #Archive Urls
+    path('Evangelistic Night/', include('Archive.urls')),
+    path('Bible Study/', include('Archive.urls')),
+    path('Wildsons/', include('Archive.urls')),
+    path('Cell Celebration/', include('Archive.urls')),
+    path('SOL & LifeClass/', include('Archive.urls')),
+
+    path('Accounts/', include('Accounts.urls')),
     path('admin/', admin.site.urls),
 ]
