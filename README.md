@@ -30,9 +30,9 @@ So I decided to take on the challenge of creating my professional website for a 
 
 
 ## Screenshots
-![homepage](Readme Screenshots/Home.jpeg)
+![homepage](./Readme Screenshots/Home.jpeg)
 
-![Information page](Readme Screenshots/Information.jpeg)
+![Information page](./Readme Screenshots/Information.jpeg)
 
 
 
@@ -43,6 +43,7 @@ _in progress_
 ## Room for Improvement
 
 Room for improvement:
+
 N/A
 
 To do:
