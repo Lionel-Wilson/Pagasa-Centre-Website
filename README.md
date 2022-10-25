@@ -29,10 +29,10 @@ So I decided to take on the challenge of creating my professional website for a 
 
 
 ## Screenshots
-![Home]([Readme Screenshots/Home.jpeg](https://github.com/Lionel-Wilson/Pagasa-Centre-Website/blob/main/Readme%20Screenshots/Home.jpeg))
+![Readme Screenshots/Home.jpeg](https://github.com/Lionel-Wilson/Pagasa-Centre-Website/blob/main/Readme%20Screenshots/Home.jpeg?raw=true)
 
 
-![Information]([Readme Screenshots/Information.jpeg](https://github.com/Lionel-Wilson/Pagasa-Centre-Website/blob/main/Readme%20Screenshots/Information.jpeg))
+![Readme Screenshots/Information.jpeg](https://github.com/Lionel-Wilson/Pagasa-Centre-Website/blob/main/Readme%20Screenshots/Information.jpeg?raw=true)
 
 
 
