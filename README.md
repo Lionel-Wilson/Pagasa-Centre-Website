@@ -31,6 +31,7 @@ So I decided to take on the challenge of creating my professional website for a 
 
 ## Screenshots
 ![homepage](Readme Screenshots/Home.jpeg)
+
 ![Information page](Readme Screenshots/Information.jpeg)
 
 
