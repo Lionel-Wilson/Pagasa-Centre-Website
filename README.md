@@ -70,4 +70,4 @@ N/A
 
 
 ## Contact
-Created by [Lione Wilson](https://github.com/Lionel-Wilson) - feel free to contact me via email at Lionel_Wilson@outlook.com !
+Created by [Lionel Wilson](https://github.com/Lionel-Wilson) - feel free to contact me via email at Lionel_Wilson@outlook.com !
