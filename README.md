@@ -56,7 +56,7 @@ To do:
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by Life Church TV 
+- This project was inspired by [Life.Church TV](https://www.life.church/)
 - This project was based on multiple tutorials and google searches. However the main person I would like to shout out is [Dennis Ivy](https://www.youtube.com/c/DennisIvy) for his amazing Django Tutorials.
 - Many thanks to Jesus Christ for giving me the strength and discipline to see this project through.
 
