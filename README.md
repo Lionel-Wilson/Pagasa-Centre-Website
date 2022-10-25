@@ -4,7 +4,6 @@
 ## Table of Contents
 * [General Information](#general-information)
 * [Technologies Used](#technologies-used)
-* [Features](#features)
 * [Screenshots](#screenshots)
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
@@ -30,9 +29,10 @@ So I decided to take on the challenge of creating my professional website for a 
 
 
 ## Screenshots
-![homepage](./Readme Screenshots/Home.jpeg)
+![Home](Readme Screenshots/Home.jpeg)
 
-![Information page](./Readme Screenshots/Information.jpeg)
+
+![Information](Readme Screenshots/Information.jpeg)
 
 
 
