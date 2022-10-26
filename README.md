@@ -42,7 +42,6 @@ _in progress_
 ## Room for Improvement
 
 To do:
-- integrate AWS RDS
 - Create login and register feature
 - Use Youtube API to retrieve Church Preachings
 - Image & video upload feature FOR gallery page
