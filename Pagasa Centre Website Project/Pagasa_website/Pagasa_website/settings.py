@@ -86,9 +86,11 @@ WSGI_APPLICATION = 'Pagasa_website.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'test1',
+        'NAME': 'test_db',
         'USER': 'lionel',
         'PASSWORD': 'lionel12',
+        'HOST': 'pagasa-test-db.ctzvqwhk8brh.eu-west-2.rds.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
