@@ -8,8 +8,6 @@
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
-* [Setup](#setup)
-* [Usage](#usage)
 * [Contact](#contact)
 
 
