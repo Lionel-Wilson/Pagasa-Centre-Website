@@ -13,7 +13,7 @@
 
 ## General Information
 This project is a website I made for my local church. They had been using a facebook page to handle posts of upcoming events, live preachings and share information for many years.
-So I decided to take on the challenge of creating my professional website for a client. This was a very fun project because I started it without knowing half the technologies I used and how on earth I was going to implement half the features in it but in the end with the help of alot of googling and perseverance, I managed to do it. This was a great learning experience! :)
+So I decided to take initiative and take on the challenge of creating a professional website for them. This was a very fun project because I started it without knowing half the technologies I used and how on earth I was going to implement half the features in it but in the end, with the help of alot of googling and perseverance, I managed to do it. This was a great learning experience! :)
 
 
 ## Technologies Used
