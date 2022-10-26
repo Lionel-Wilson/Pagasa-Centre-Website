@@ -24,7 +24,7 @@ def addrecord(request):
   y = request.POST['last']
   member = Members(firstname=x, lastname=y)
   member.save()
-  return HttpResponseRedirect(reverse('index'))
+  return HttpResponseRedirect(reverse('cellgroupindex'))
 
 def delete(request, id):
     #the 'id' is passed as a argument. We then find the specific member and store as a variable
