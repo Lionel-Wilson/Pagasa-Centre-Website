@@ -58,13 +58,5 @@ To do:
 - Many thanks to Jesus Christ for giving me the strength and discipline to see this project through.
 
 
-## Setup
-N/A
-
-
-## Usage
-N/A
-
-
 ## Contact
 Created by [Lionel Wilson](https://github.com/Lionel-Wilson) - feel free to contact me via email at Lionel_Wilson@outlook.com !
