@@ -45,7 +45,7 @@ _in progress_
 
 To do:
 - integrate AWS RDS
-- Create login in a register feature
+- Create login and register feature
 - Use Youtube API to retrieve Church Preachings
 - Image & video upload feature FOR gallery page
 - Create Student page
