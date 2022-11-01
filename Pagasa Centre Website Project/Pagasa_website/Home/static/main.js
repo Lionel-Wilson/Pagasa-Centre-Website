@@ -13,8 +13,9 @@ function myDropdownFunc() {
     x.className += " w3-show";
   } else {
     x.className = x.className.replace(" w3-show", "");
+    }
   }
-}
+
 // Open and close sidebar
 function w3_open() {
 document.getElementById("mySidebar").style.display = "block";
