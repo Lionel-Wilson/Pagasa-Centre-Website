@@ -1,0 +1,52 @@
+/* Centered text */
+
+
+.home-image {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pastor_doc.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+
+}
+
+.home-image-text {
+    color: white;
+    text-align: center;
+  }
+#home-main-headings{
+    font-size:600%;
+    margin-bottom: 45px;
+    width:auto;
+    white-space: nowrap;
+}
+#home-main-headings-text{
+    font-size:400%;
+    margin-top: 45px;
+
+}
+
+.home-button button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+
+.home-button button:hover {
+    background-color: #555;
+    color: white;
+  }
