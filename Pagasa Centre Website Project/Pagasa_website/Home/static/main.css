@@ -5,16 +5,21 @@ html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* The navigation menu */
 .navbar {
     overflow: hidden;
-    background-color: #333;
-    float:right;
+    background-color: rgb(255, 255, 255);
     width: 100%; 
+
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
 }
   
 /* Navigation links */
 .navbar a {
 float: right;
 font-size: 16px;
-color: white;
+color: #333;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
@@ -31,7 +36,7 @@ overflow: hidden;
 font-size: 16px;
 border: none;
 outline: none;
-color: white;
+color: #333;
 padding: 14px 16px;
 background-color: inherit;
 font-family: inherit;
