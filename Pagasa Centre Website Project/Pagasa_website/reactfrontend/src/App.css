@@ -1,38 +1,112 @@
-.App {
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+
+/*My css */
+
+/* The navigation menu */
+.navbar-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    width: 100%; 
+
+
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    vertical-align: top;
+    justify-content: flex-end;
+}
+  
+/* Navigation links */
+.navbar a {
+  float: right;
+  font-size: 25px;
+  color: #333;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* The subnavigation menu */
+.subnav {
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: #333;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  justify-content: flex-start;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Add a green background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: rgb(0, 175, 29);
+}
+
+/* Style the subnav content - positioned absolute */
+#subnav-cellgroup-content{
+  display: none;
+  position:absolute;
+  background-color:rgb(0, 175, 29);
+  z-index: 1;
+
+}
+#subnav-evang-content{
+  display: none;
+  position:absolute;
+  right:0;
+  background-color:rgb(0, 175, 29);
+  z-index: 1;
+
+}
+
+#subnav-evang-content a {
   color: white;
+  text-decoration: none;
+  font-size: 25px ;
 }
 
-.App-link {
-  color: #61dafb;
+#subnav-cellgroup-content a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#subnav-cellgroup-content a:hover {
+  background-color: #eee;
+  color: black;
 }
+/* Add a grey background color on hover */
+#subnav-evang-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover #subnav-evang-content {
+  display: block;
+}
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover #subnav-cellgroup-content {
+  display: block;
+}
+
+body{
+  width: 100%;
+  height: auto;
+  
+}
+
+/*End of My css */
