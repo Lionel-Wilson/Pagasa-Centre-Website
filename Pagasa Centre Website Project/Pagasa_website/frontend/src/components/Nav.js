@@ -42,9 +42,11 @@ function Navigation() {
                 <NavDropdown.Item eventKey="4.2">NEED A CELL</NavDropdown.Item>
                 <NavDropdown.Item eventKey="4.3">CELL LEADERS</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Item>
-                <Nav.Link eventKey="link-2">STUDENTS</Nav.Link>
-              </Nav.Item>
+              <NavDropdown title="STUDENTS" id="nav-dropdown">
+                <NavDropdown.Item eventKey="4.1">REGISTRATION</NavDropdown.Item>
+                <NavDropdown.Item eventKey="4.2">TEACHERS LOUNGE</NavDropdown.Item>
+                <NavDropdown.Item eventKey="4.3">LIFE GUIDES</NavDropdown.Item>
+              </NavDropdown>
               <Nav.Item>
                 <Nav.Link eventKey="link-2">SUNDAY SCHOOL</Nav.Link>
               </Nav.Item>

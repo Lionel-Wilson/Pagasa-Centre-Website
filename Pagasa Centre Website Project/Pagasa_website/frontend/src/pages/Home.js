@@ -26,7 +26,13 @@ function Home() {
         <br></br>
         <br></br>
         <br></br>
-        <Cardsection image={img3} main_text="CH_RCH IS NOT COMPLETE WITHOUT U" sub_text="We invite you to participate in one of our cells and meetings so that you may be transformed through a special message that Jesus has for you." button_text="SUNDAY CELLEBRATION" />
+        <Cardsection cardtype="CH_RCH" image={img3} main_text="CH_RCH IS NOT COMPLETE WITHOUT U" sub_text="We invite you to participate in one of our cells and meetings so that you may be transformed through a special message that Jesus has for you." 
+        button_text="SUNDAY CELLEBRATION" button_text2="CELL GROUP" button_text3="CHILDREN'S MINISTRY" button_text4="WILDSONS" />
+        <br></br>
+        <br></br>
+        <br></br>
+        <Cardsection cardtype="SCHOOL" image={img3} main_text="LIFECLASS & SCHOOL OF LEADERS" sub_text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" 
+        button_text="SIGN UP" button_text2="LOGIN" />
   </React.StrictMode>
   )
 }
