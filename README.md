@@ -23,7 +23,8 @@ So I decided to take initiative and take on the challenge of creating a professi
 * Amazon Web Services(RDS)
 * HTML
 * CSS
-* JavaScript
+* React
+* BootStrap Version: 5.3.x
 
 
 ## Screenshots
