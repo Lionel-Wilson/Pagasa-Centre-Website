@@ -18,7 +18,7 @@ function Home() {
         <br></br>
         <br></br>
         <br></br>
-        <Cardsection image={img1} main_text="WELCOME TO PAG-ASA CENTRE" sub_text="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer." button_text="JOIN SERVICE" />
+        <Cardsection image={img1} main_text="WELCOME TO PAG-ASA CENTRE" sub_text="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Some more text to make it overflow" button_text="JOIN SERVICE" />
         <br></br>
         <br></br>
         <br></br>
@@ -33,6 +33,13 @@ function Home() {
         <br></br>
         <Cardsection cardtype="SCHOOL" image={img3} main_text="LIFECLASS & SCHOOL OF LEADERS" sub_text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" 
         button_text="SIGN UP" button_text2="LOGIN" />
+        <br></br>
+        <br></br>
+        <br></br>
+        <Cardsection cardtype="QUESTIONS" main_text="ANY QUESTIONS? WE ARE HERE TO SERVE!"/>
+        <br></br>
+        <br></br>
+        <br></br>
   </React.StrictMode>
   )
 }

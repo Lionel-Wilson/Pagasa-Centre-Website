@@ -9,7 +9,7 @@ function Navigation() {
   return (
     <>
       <Navbar bg="light" variant="light" fixed="top">
-        <Container fluid>
+        <Container fluid className='px-5'>
           <Nav className="justify-content-start">
             <Navbar.Brand href="#home" >
                 <img
@@ -21,7 +21,7 @@ function Navigation() {
                 />
             </Navbar.Brand>
           </Nav>
-          <Nav className="justify-content-end" activeKey="/home">
+          <Nav className="Nav justify-content-end" activeKey="/home">
               <Nav.Item>
                 <Nav.Link href="/home">HOME</Nav.Link>
               </Nav.Item>
