@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/esm/Container';
 import Form from 'react-bootstrap/Form';
+import InputGroup from 'react-bootstrap/InputGroup';
 
 
 function Cardsection(props) {
@@ -98,13 +99,13 @@ function Cardsection(props) {
                     <Form.Control type="number" placeholder="Enter your phone number" />
                   </Form.Group>
 
-                  <Form.Group className="mb-3" controlId="formBasicMessage">
+                  <Form.Group className="mb-3" controlId="PhoneNumber">
                     <Form.Label>MESSAGE</Form.Label>
-                    <Form.Control type="message" placeholder="Message" />
+                    <InputGroup className="mb-3">
+                      <Form.Control as="textarea" placeholder="Enter your phone number" />
+                    </InputGroup>
                   </Form.Group>
-                  <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
-                  </Form.Group>
+                  
 
                   <Button variant="primary" type="submit">
                     SEND
