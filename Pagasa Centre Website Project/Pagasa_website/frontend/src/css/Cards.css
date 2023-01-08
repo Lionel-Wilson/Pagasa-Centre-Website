@@ -2,3 +2,12 @@
   box-sizing: content-box;
 }
 
+.bg-overlay{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+.cards-subtitle-container{
+  width:60%;
+}
+

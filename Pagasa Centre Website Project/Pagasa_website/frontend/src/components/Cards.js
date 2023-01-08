@@ -12,11 +12,12 @@ function Cardsection(props) {
       <>
           <Card className="bg-dark text-white">
             <Card.Img src={props.image}/>
-            <Card.ImgOverlay className='d-flex align-items-center justify-content-center flex-column mb-3 ' >
+            <Card.ImgOverlay className='bg-overlay d-flex align-items-center justify-content-center flex-column mb-3 ' >
               <Card.Title className='text-center display-1 fw-bold mb-0'>{props.main_text}</Card.Title>
               <br></br>
-
+              <div className='cards-subtitle-container'>
               <Card.Subtitle className='text-center'><h4 class='mb-0'>{props.sub_text}</h4></Card.Subtitle>
+              </div>
               <br></br>
               
               <div className='d-flex align-items-center justify-content-center '>
@@ -43,11 +44,12 @@ function Cardsection(props) {
       <>
         <Card className="bg-dark text-white">
           <Card.Img src={props.image}/>
-          <Card.ImgOverlay className='d-flex align-items-center justify-content-center flex-column mb-3 ' >
+          <Card.ImgOverlay className='bg-overlay d-flex align-items-center justify-content-center flex-column mb-3 ' >
             <Card.Title className='text-center display-1 fw-bold'>{props.main_text}</Card.Title>
             <br></br>
-
+            <div className='cards-subtitle-container'>
             <Card.Subtitle className='text-center'><h4>{props.sub_text}</h4></Card.Subtitle>
+            </div>
             <br></br>
             
             <div className='d-flex align-items-center justify-content-center '>
@@ -124,13 +126,15 @@ function Cardsection(props) {
     <>
       <Card className="bg-dark text-white">
         <Card.Img src={props.image}/>
-        <Card.ImgOverlay className='d-flex align-items-center justify-content-center flex-column mb-3 ' >
+        <Card.ImgOverlay className='bg-overlay d-flex align-items-center justify-content-center flex-column mb-3' >
+            
             <Card.Title className='text-center display-1 fw-bold mb-0'>{props.main_text}</Card.Title>
             <br></br>
-
-            <Card.Subtitle className='text-center'><h4 className='mb-0 text-wrap'>{props.sub_text}</h4></Card.Subtitle>
+              <div className='cards-subtitle-container'>
+              <Card.Subtitle className='text-center'><h4 className='mb-0 text-wrap'>{props.sub_text}</h4></Card.Subtitle>
+              </div>
             <br></br>
-
+            
             <div class="text-center">
               <Button className='btn text-center' variant="light" size="lg" type="button"><p class="mb-0 fs-2 ">{props.button_text}</p></Button>
             </div>
