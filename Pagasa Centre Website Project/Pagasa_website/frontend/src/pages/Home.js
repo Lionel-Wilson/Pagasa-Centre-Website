@@ -34,6 +34,8 @@ function Home() {
         {space}
         <Cardsection cardtype="CH_RCH"/>
         {space}
+        <Cardsection cardtype="LATEST PREACHING"/>
+        {space}
         <Cardsection cardtype="SCHOOL"/>
         {space}
         <Cardsection cardtype="QUESTIONS"/>
