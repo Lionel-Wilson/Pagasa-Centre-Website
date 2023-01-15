@@ -4,68 +4,77 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/esm/Container';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
-
+import img1 from '../static/images/pag-test-img-1.jpg';
+import img2 from '../static/images/pag-test-img-2.jpg';
+import img3 from '../static/images/pag-test-img-3.jpg';
 
 function Cardsection(props) {
+  var titleText = "WELCOME TO PAG-ASA CENTRE";
+  var subTitleText = "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Some more text to make it overflow";
+  var cardImage = img1;
+  var buttonText = ["JOIN SERVICE"];
+  var cardButton = buttonText.map(text => {
+    return (
+    <>
+      <div className="mx-3 text-center">
+        <Button class='btn text-center' variant="light" size="lg" type="button" ><p class="mb-0 fs-2 ">{text}</p></Button>
+      </div>
+    </>
+    )
+});
+
+
   if (props.cardtype === "CH_RCH"){
-    return (
+    titleText = "CH_RCH IS NOT COMPLETE WITHOUT U";
+    subTitleText = "We invite you to participate in one of our cells and meetings so that you may be transformed through a special message that Jesus has for you.";
+    cardImage = img3;
+    buttonText = ["SUNDAY CELEBRATION","CELL GROUP", "CHILDREN'S MINISTRY", "WILDSONS"];
+    cardButton = buttonText.map(text => {
+      return (
       <>
-          <Card className="bg-dark text-white">
-            <Card.Img src={props.image}/>
-            <Card.ImgOverlay className='bg-overlay d-flex align-items-center justify-content-center flex-column mb-3 ' >
-              <Card.Title className='text-center display-1 fw-bold mb-0'>{props.main_text}</Card.Title>
-              <br></br>
-              <div className='cards-subtitle-container'>
-              <Card.Subtitle className='text-center'><h4 class='mb-0'>{props.sub_text}</h4></Card.Subtitle>
-              </div>
-              <br></br>
-              
-              <div className='d-flex align-items-center justify-content-center '>
-                <div className="mx-3 text-center">
-                  <Button class='btn text-center' variant="light" size="lg" type="button" ><p class="mb-0 fs-2 ">{props.button_text}</p></Button>
-                </div>
-                <div className="mx-3 text-center">
-                  <Button class='btn text-center' variant="light" size="lg" type="button"><p class="mb-0 fs-2 ">{props.button_text2}</p></Button>
-                </div>
-                <div className="mx-3 text-center">
-                  <Button class='btn text-center' variant="light" size="lg" type="button"><p class="mb-0 fs-2 ">{props.button_text3}</p></Button>
-                </div>
-                <div className="mx-3 text-center">
-                  <Button class='btn text-center' variant="light" size="lg" type="button"><p class="mb-0 fs-2 ">{props.button_text4}</p></Button>
-                </div>
-              </div>
-            </Card.ImgOverlay>
-          </Card> 
+        <div className="mx-3 text-center">
+          <Button class='btn text-center' variant="light" size="lg" type="button" ><p class="mb-0 fs-2 ">{text}</p></Button>
+        </div>
       </>
-    )
+      )
+  });
   }
+
   if (props.cardtype === "SCHOOL"){
-    return (
+    titleText = "LIFECLASS & SCHOOL OF LEADERS";
+    subTitleText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua";
+    cardImage = img3;
+    buttonText = ["SIGN UP", "LOG IN"];
+    cardButton = buttonText.map(text => {
+      return (
       <>
-        <Card className="bg-dark text-white">
-          <Card.Img src={props.image}/>
-          <Card.ImgOverlay className='bg-overlay d-flex align-items-center justify-content-center flex-column mb-3 ' >
-            <Card.Title className='text-center display-1 fw-bold'>{props.main_text}</Card.Title>
-            <br></br>
-            <div className='cards-subtitle-container'>
-            <Card.Subtitle className='text-center'><h4>{props.sub_text}</h4></Card.Subtitle>
-            </div>
-            <br></br>
-            
-            <div className='d-flex align-items-center justify-content-center '>
-              <div className="mx-3 text-center">
-                <Button class='btn text-center' variant="light" size="lg" type="button"><p class="mb-0 fs-2 ">{props.button_text}</p></Button>
-              </div>
-              <div className="mx-3 text-center">
-                <Button class='btn text-center' variant="light" size="lg" type="button"><p class="mb-0 fs-2 ">{props.button_text2}</p></Button>
-              </div>
-            </div>
-          </Card.ImgOverlay>
-        </Card>
+        <div className="mx-3 text-center">
+          <Button class='btn text-center' variant="light" size="lg" type="button" ><p class="mb-0 fs-2 ">{text}</p></Button>
+        </div>
       </>
-    )
+      )
+  });
   }
+
+  if (props.cardtype === "CONNECT"){
+    titleText = "NEW HERE? CONNECT WITH US!";
+    subTitleText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua";
+    cardImage = img2;
+    buttonText = ["CONNECT ME"];
+    cardButton = buttonText.map(text => {
+      return (
+      <>
+        <div className="mx-3 text-center">
+          <Button class='btn text-center' variant="light" size="lg" type="button" ><p class="mb-0 fs-2 ">{text}</p></Button>
+        </div>
+      </>
+      )
+  });
+  }
+
   if (props.cardtype === "QUESTIONS"){
+    titleText = "ANY QUESTIONS?";
+    subTitleText = "WE ARE HERE TO SERVE!";
     return (
       <>
         <Container fluid className='p-0'>
@@ -73,10 +82,9 @@ function Cardsection(props) {
           <Card.Body className='d-flex align-items-center justify-content-center flex-column mb-0 py-5 ' >
               <Container fluid className='row'>
                 <div className='col-sm-6'>
-                  <Card.Title className='text-start display-1 fw-bold mb-0'>{props.main_text}</Card.Title>
-                  <Card.Title className='text-start display-1 fw-bold mb-0'>WE ARE HERE TO SERVE!</Card.Title>
+                  <Card.Title className='text-start display-1 fw-bold mb-0'>{titleText}</Card.Title>
+                  <Card.Title className='text-start display-1 fw-bold mb-0'>{subTitleText}</Card.Title>
                   <br></br>
-                  <Card.Subtitle className='text-start'><h4 className='mb-0 text-wrap'>{props.sub_text}</h4></Card.Subtitle>
                   <Card.Subtitle className='text-start'><h4 className='mb-0 text-wrap'>Email: somename@fakememail.com</h4></Card.Subtitle>
                   <br></br>
                   <Card.Subtitle className='text-start'><h4 className='mb-0 text-wrap'> Phone: +44 7958 662 568</h4></Card.Subtitle>
@@ -122,28 +130,26 @@ function Cardsection(props) {
       </>
     )
   }
+  
   return (
     <>
       <Card className="bg-dark text-white">
-        <Card.Img src={props.image}/>
-        <Card.ImgOverlay className='bg-overlay d-flex align-items-center justify-content-center flex-column mb-3' >
-            
-            <Card.Title className='text-center display-1 fw-bold mb-0'>{props.main_text}</Card.Title>
-            <br></br>
-              <div className='cards-subtitle-container'>
-              <Card.Subtitle className='text-center'><h4 className='mb-0 text-wrap'>{props.sub_text}</h4></Card.Subtitle>
-              </div>
-            <br></br>
-            
-            <div class="text-center">
-              <Button className='btn text-center' variant="light" size="lg" type="button"><p class="mb-0 fs-2 ">{props.button_text}</p></Button>
-            </div>
+        <Card.Img src={cardImage}/>
+        <Card.ImgOverlay className='bg-overlay d-flex align-items-center justify-content-center flex-column mb-3 ' >
+          <Card.Title className='text-center display-1 fw-bold mb-0'>{titleText}</Card.Title>
+          <br></br>
+          <div className='cards-subtitle-container'>
+            <Card.Subtitle className='text-center'><h4 class='mb-0 text-wrap'>{subTitleText}</h4></Card.Subtitle>
+          </div>
+          <br></br>
+          
+          <div className='d-flex align-items-center justify-content-center '>
+            {cardButton}
+          </div>
         </Card.ImgOverlay>
-      </Card>
-      
+      </Card> 
     </>
   )
-  
 }
 
 export default Cardsection;
