@@ -9,6 +9,7 @@ import img2 from '../static/images/pag-test-img-2.jpg';
 import img3 from '../static/images/pag-test-img-3.jpg';
 
 function Cardsection(props) {
+  //HOME PAGE CARDS 
   var titleText = "WELCOME TO PAG-ASA CENTRE";
   var subTitleText = "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Some more text to make it overflow";
   var cardImage = img1;
@@ -130,7 +131,7 @@ function Cardsection(props) {
       </>
     )
   }
-  
+
   return (
     <>
       <Card className="bg-dark text-white">

@@ -3,6 +3,18 @@ import Navigation from '../components/Nav';
 import Cardsection from '../components/Cards';
 import Footer from '../components/Footer';
 
+//6 line breaks
+const space = (
+    <>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+    </>
+  )
+  
 function Home() {
   return (
     <React.StrictMode>
@@ -17,50 +29,17 @@ function Home() {
         <br></br>
         <br></br>
         <Cardsection/>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+        {space}
         <Cardsection  cardtype="CONNECT"/>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+        {space}
         <Cardsection cardtype="CH_RCH"/>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+        {space}
         <Cardsection cardtype="SCHOOL"/>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+        {space}
         <Cardsection cardtype="QUESTIONS"/>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+        {space}
+        {space}
+        {space}
         <Footer />
 
   </React.StrictMode>
