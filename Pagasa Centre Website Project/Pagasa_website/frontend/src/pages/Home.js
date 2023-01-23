@@ -1,6 +1,7 @@
 import React from 'react'
 import Navigation from '../components/Nav';
 import Cardsection from '../components/Cards';
+import SpecialCard from '../components/SpecialCards';
 import Footer from '../components/Footer';
 
 //6 line breaks
@@ -34,11 +35,11 @@ function Home() {
         {space}
         <Cardsection cardtype="CH_RCH"/>
         {space}
-        <Cardsection cardtype="LATEST PREACHING"/>
+        <SpecialCard cardtype="LATEST PREACHING"/>
         {space}
         <Cardsection cardtype="SCHOOL"/>
         {space}
-        <Cardsection cardtype="QUESTIONS"/>
+        <SpecialCard cardtype="QUESTIONS"/>
         {space}
         {space}
         {space}
