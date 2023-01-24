@@ -21,6 +21,23 @@ function AboutUs(props) {
     <React.StrictMode>
         {pageStartSpace}
         <Cardsection  cardtype="ABOUT"/>
+        <div className='px-5 py-5 mb-5'>
+            <p className='text-center display-4 fw-bold'>
+                Block small heading text about Pag-asa Centre
+                history, G12 vision, etc. Fill fill fill Fill fill fill Fill fill fill
+                Fill fill fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill Fill fill
+                fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill this space
+                with text.
+                fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill this space
+                with text.
+                with text.
+                fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill this space
+                with text.
+                fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill this space
+                with text.
+                with text.
+            </p>
+        </div>
         <SpecialCard cardtype="GOSH LEADER"/>
         <SpecialCard cardtype="DOC AND SHAY LEADERS"/>
         <Footer />
