@@ -40,6 +40,12 @@ function Cardsection(props) {
     cardImage = img2;
     buttonText = ["CONNECT ME"];
   }
+  if (props.cardtype === "ABOUT"){
+    titleText = "ABOUT US";
+    subTitleText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua";
+    cardImage = img2;
+    buttonText = ["MORE"];
+  }
 
   //create buttons
   var cardButton = buttonText.map(text => {

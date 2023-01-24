@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/esm/Container';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
+import pagasalogo from '../static/images/pagasa_logo.png';
 
 function SpecialCard(props) {
     var titleText = "";
@@ -130,6 +131,53 @@ function SpecialCard(props) {
           </>
         )
       }
+
+
+
+    //ABOUT US PAGE
+    //Our Leadership 
+    var nameAndRole = "Gosh Ambat & Role"
+    titleText = "OUR LEADERSHIP";
+    if (props.cardtype === "GOSH LEADER"){
+      titleText = "OUR LEADERSHIP";
+      subTitleText = "Block small heading text about pastor, their vision, etc. Fill fill fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill this gap.";  
+
+  }
+    if (props.cardtype === "DOC AND SHAY LEADERS"){
+      subTitleText = "Block small heading text about pastor, their vision, etc. Fill fill fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill Fill fill fill this gap.";  
+      nameAndRole = "Doc & Shay";
+  }
+  return (
+    <>
+        <Container fluid className='p-0 mb-6'>
+        <Card className="bg-white text-dark">
+        <Card.Body className='d-flex align-items-center justify-content-center mb-0 py-6 ' >
+            <Container fluid className='row'>
+                <div className='col-sm-4'>
+                    <Container className="d-flex flex-column ">
+                      <div className="d-flex justify-content-center">
+                        <img
+                              src={pagasalogo}
+                              width="440"
+                              height="440"
+                              className="mb-4"
+                              alt="Pagasa logo"
+                            />
+                        </div>
+                          
+                          <p className='text-center display-6 fw-bold'>{nameAndRole}</p>
+                    </Container>
+                </div>
+                <div className='col-sm-8'>
+                  <Card.Title className='text-end display-1 fw-bold mb-0'>{titleText}</Card.Title>
+                  <Card.Title className='text-end display-4 mb-0'>{subTitleText}</Card.Title>
+                </div>
+            </Container>
+        </Card.Body>
+        </Card>
+        </Container>
+    </>
+    )
   }
 
 export default SpecialCard;

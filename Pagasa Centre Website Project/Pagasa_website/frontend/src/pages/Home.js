@@ -1,22 +1,27 @@
 import React from 'react'
-import Navigation from '../components/Nav';
 import Cardsection from '../components/Cards';
 import SpecialCard from '../components/SpecialCards';
 import Footer from '../components/Footer';
-  
+
+const pageStartSpace = (
+  <>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  <br></br>
+  </>
+)
+
+
 function Home() {
   return (
     <React.StrictMode>
-        <Navigation />
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+        {pageStartSpace}
         <Cardsection/>
         
         <Cardsection  cardtype="CONNECT"/>
