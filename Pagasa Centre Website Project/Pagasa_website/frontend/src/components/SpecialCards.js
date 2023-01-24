@@ -28,7 +28,7 @@ function SpecialCard(props) {
                     <br></br>
                     <Card.Subtitle className='text-start'><h4 className='mb-0 text-wrap'>Email: somename@fakememail.com</h4></Card.Subtitle>
                     <br></br>
-                    <Card.Subtitle className='text-start'><h4 className='mb-0 text-wrap'> Phone: +44 7958 662 568</h4></Card.Subtitle>
+                    <Card.Subtitle className='text-start'><h4 className='mb-0 text-wrap'> Phone: +44 7958 763 568</h4></Card.Subtitle>
                     <br></br>
                     </div>
                     <div className='col-sm-6'>

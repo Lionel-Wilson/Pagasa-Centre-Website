@@ -1,15 +1,23 @@
-$display-font-sizes: (
-  1: 5rem,
-  2: 4.5rem,
-  3: 4rem,
-  4: 3.5rem,
-  5: 3rem,
-  6: 2.5rem
-);
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root{
   --bs-body-font-family: 'Montserrat', sans-serif !important;
 }
+
+.btn-light {
+  --bs-btn-border-color: #f8f9fa!important;
+  --bs-btn-hover-color: #f8f9fa!important;
+  --bs-btn-hover-bg: #3ea463!important;
+  --bs-btn-hover-border-color: #3ea463!important;
+}
+.navbar-nav {
+  --bs-nav-link-hover-color: #3ea463!important;
+}
+.btn-dark {
+  --bs-btn-hover-bg: #3ea463!important;
+}
+
+
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
+

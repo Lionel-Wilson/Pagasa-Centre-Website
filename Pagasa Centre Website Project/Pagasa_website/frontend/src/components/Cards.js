@@ -54,7 +54,7 @@ function Cardsection(props) {
 
   return (
     <>
-      <Card className="bg-dark text-white">
+      <Card className="bg-dark text-white mb-6">
         <Card.Img src={cardImage}/>
         <Card.ImgOverlay className='bg-overlay d-flex align-items-center justify-content-center flex-column mb-3 ' >
           <Card.Title className='text-center display-1 fw-bold mb-0'>{titleText}</Card.Title>
