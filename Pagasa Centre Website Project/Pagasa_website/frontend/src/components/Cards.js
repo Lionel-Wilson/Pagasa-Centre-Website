@@ -52,7 +52,7 @@ function Cardsection(props) {
     return (
     <>
       <div className="mx-3 text-center">
-        <Button class='btn text-center' variant="light" size="lg" type="button" ><p class="mb-0 fs-2 ">{text}</p></Button>
+        <Button class='btn text-center' variant="light" size="lg" type="button" ><p class="mb-0 fs-2 fw-bold">{text}</p></Button>
       </div>
     </>
     )

@@ -81,7 +81,7 @@ function SpecialCard(props) {
           return (
           <>
             <div className="mx-3 text-center button-text-container">
-              <Button href="https://www.youtube.com/@PagasaCentre" target="_blank" class='btn text-center' variant="dark" size="lg" type="button" ><p class="mb-0 fs-2 ">{text}</p></Button>
+              <Button href="https://www.youtube.com/@PagasaCentre" target="_blank" class='btn text-center' variant="dark" size="lg" type="button" ><p class="mb-0 fs-2 fw-bold">{text}</p></Button>
             </div>
           </>
           )

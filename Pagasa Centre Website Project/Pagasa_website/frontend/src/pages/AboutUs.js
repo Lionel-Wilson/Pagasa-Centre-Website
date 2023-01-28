@@ -38,8 +38,8 @@ function AboutUs(props) {
                 with text.
             </p>
         </div>
-        <SpecialCard cardtype="GOSH LEADER"/>
         <SpecialCard cardtype="DOC AND SHAY LEADERS"/>
+        <SpecialCard cardtype="GOSH LEADER"/>
         <Footer />
     </React.StrictMode>
   )

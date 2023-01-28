@@ -22,7 +22,7 @@ function Navigation() {
                 />
             </Navbar.Brand>
           </Nav>
-          <Nav className="Nav justify-content-end" activeKey="/home">
+          <Nav className="Nav justify-content-end fs-5" activeKey="/home">
               <Nav.Item>
                 <Nav.Link href="/">HOME</Nav.Link>
               </Nav.Item>
@@ -33,14 +33,13 @@ function Navigation() {
                 <Nav.Link href="link-2">GALLERY</Nav.Link>
               </Nav.Item>
               <NavDropdown title="ARCHIVE" id="nav-dropdown">
-                <NavDropdown.Item href="4.1">EVANGELIST NIGHT</NavDropdown.Item>
+                <NavDropdown.Item href="4.1">EVANGELISTIC NIGHT</NavDropdown.Item>
                 <NavDropdown.Item href="4.2">BIBLE STUDY</NavDropdown.Item>
                 <NavDropdown.Item href="4.3">CELL CELEBRATION</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="CELL GROUP" id="nav-dropdown">
-                <NavDropdown.Item href="4.1">VIP</NavDropdown.Item>
-                <NavDropdown.Item href="4.2">NEED A CELL</NavDropdown.Item>
-                <NavDropdown.Item href="4.3">CELL LEADERS</NavDropdown.Item>
+                <NavDropdown.Item href="Vip">VIP & NEED A CELL</NavDropdown.Item>
+                <NavDropdown.Item href="CellLeaders">CELL LEADERS</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="MINISTRY" id="nav-dropdown">
                 <NavDropdown.Item href="4.2">MEDIA</NavDropdown.Item>

@@ -6,9 +6,17 @@ body {
 .mb-6{
   margin-bottom: 9em;
 }
+.starting-section{
+  margin-top: 14em !important;
+}
 .py-6{
   padding-top: 6em!important;
   padding-bottom: 6em!important;
+}
+
+.mx-6{
+  margin-left: 30em;
+  margin-right: 30em;
 }
 
 
